@@ -1,0 +1,72 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  background:#fafafa;
+}
+/* header */
+.header {
+    height: 70px;
+    background-color:#172B4D;
+}
+/* submit button */
+.wrapper {
+    margin-top:50px;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+input[type=text],
+input[type=number] {
+  font-size:12px;
+  height:38px;
+  background-color: #f4f5f7;
+  border: 1px solid #dfe1e5;
+
+
+}
+.btn-primary {
+  font-weight:400; 
+  color: #ffffff ;
+  background-color: #0052CC;
+  border-bottom: 3px solid #003e99;
+  font-size:14px;
+}
+
+.btn-secondary {
+  font-weight:500; 
+  color: #172b4d ;
+  background-color: #fff;
+  border:none;
+  font-size:14px;
+}
+.btn-secondary:hover {
+  background-color:#fff;
+  border-color:#fff;
+  color:#172b4d;
+}
+.btn-search {
+  margin-top : 70px;
+  padding:8px 15px; 
+  height:48px;
+  font-weight:400; 
+  color: #ffffff ;
+  background-color: #0052CC;
+  border-bottom: 3px solid #003e99;
+}
+.modal-title {
+  color:#172b4d;
+  font-weight:600;
+}
+.sub-title {
+  color: #68778c;
+  font-weight:600;
+  font-size:14px;
+}
+.desc {
+  padding:25px 40px;
+}
+.nav-tabs .nav-link.active{
+  border-color:#fff;
+  border-bottom-color:#172b4d;
+}
